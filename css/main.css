@@ -1,0 +1,290 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 { 
+	margin: 0.2em auto;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; 
+
+	font-style: italic; 
+	font-variant: normal; 
+	font-weight: 600; 
+
+	color: #78bbb8;
+	text-align: center;
+}
+
+h2{
+	margin: 1em auto;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; 
+	font-size: 1.5em;
+	font-style: italic; 
+	font-variant: normal; 
+	font-weight: 400; 
+
+	color: #78bbb8;
+	text-align: left;
+	padding: 1em 2em;
+}
+
+h3{
+	margin: 2em auto 1em auto;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; 
+	font-style: italic; 
+	font-variant: normal; 
+	font-weight: 600; 
+
+	color: #78bbb8;
+	text-align: left;
+	
+}
+
+h4{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 1em;
+	margin: 1em auto;
+}
+
+h5{
+	margin: 0 auto;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; 
+
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 400; 
+
+	color: #78bbb8;
+
+}
+
+p{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
+.container-fluid {
+    margin-top: 0em;
+}
+
+.top-buffer{
+	margin-top:2em;
+}
+
+.nav-link{
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; 
+	font-style: italic; 
+	font-variant: normal; 
+	font-weight: 600; 
+	color: #78bbb8 !important;
+}
+
+.green{
+	color: #78bbb8;
+}
+
+.shadow{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#hero{
+	width:100%;
+	height:90vh;
+	background-image: url("../img/brand/brand_logo_pattern.png");
+	background-repeat: repeat;
+	background-color: #78bbb8 ;
+}
+
+.intro{
+	width: 80%;
+	background: white;
+	position: relative;
+	top:20vh;
+	margin: 1em auto;
+}
+
+.scroll{
+	width:100%;
+	color: #78bbb8;
+	margin: 1em auto;
+}
+
+#arrow{
+
+    bottom: 20px;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    box-sizing: border-box;
+}
+
+.navbar-toggler {
+	border: 0;
+}
+
+.navbar-toggler-icon{
+	color: #78bbb8 !important;
+}
+
+.avoid-nav{
+	padding-top: 72px;
+}
+
+.project img{
+	max-width:100%;
+	height:300px;
+	object-fit:contain;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .3s ease;
+	background-color: black;
+}
+
+/* .text {
+	  color: white;
+	  font-size: 1em;
+	  line-height: 1;
+	  position: absolute;
+	  background-color:rgba(0, 0, 0, 0.5);
+	  bottom: -2.5em;
+	  left: 50%;
+	  width:100%;
+	  opacity: 1;
+	  transition: .3s ease;
+	  -webkit-transform: translate(-50%, -50%);
+	  -ms-transform: translate(-50%, -50%);
+	  transform: translate(-50%, -50%);
+	  text-align: center;
+}*/
+
+.text{
+	color: black;
+	line-height: 1;
+	margin:0;
+}
+
+a:hover{
+	text-decoration: none;
+	color:#78bbb8;
+}
+
+
+.text h4 {
+	font-size: 1em;
+	margin:0.5em auto;
+}
+
+.text p{
+	color: gray;
+	font-size: 0.8em;
+}
+
+a.link{
+	text-decoration: none;
+	color: #78bbb8;
+}
+
+a.link:hover{
+	color:#e0423e;
+}
+
+a.text:hover{
+	color:#e0423e;
+}
+
+.center{
+	text-align:center;
+}
+
+.right{
+	text-align:right;
+}
+
+.persona{
+	width:15em;
+	height:15em;
+	margin:0 auto;	
+	object-fit:cover;
+	border-radius: 50%;
+}
+
+.btn-outline-primary {
+    color: #78bbb8;
+    border-color: #78bbb8;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #78bbb8;
+    border-color: #78bbb8;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #f5c11d;
+    border-color: #f5c11d;
+}
+
+
+@media (min-width: 768px) {
+	h2, h3{	
+		font-size: 1.5em;	
+	}
+}
+
+@media (min-width: 1024px) {
+	h2, h3{	
+		font-size: 2em;	
+	}
+}
+
+@media (min-width: 1366px) {
+	h2, h3{	
+		font-size: 2.5em;	
+	}
+}
+
+@media (min-width: 768px) {
+/*.text h4, .text p{
+	color: white;
+}
+
+  .text{
+	
+	opacity:0;
+	transition: .3s ease;
+	}
+
+	.project:hover .overlay {
+	  opacity: 0.5;
+	}
+
+	.project:hover .text {
+	  opacity: 1;
+	  background-color:rgba(120, 187, 184, 0);
+	}*/
+
+	#intro{
+		width: 60%;
+	}
+}
+
+
