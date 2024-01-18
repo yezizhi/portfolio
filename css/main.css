@@ -15,7 +15,7 @@ h1 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
 	color: #3B9D97;
-	font-size: 3em;
+
 }
 
 h2 {
@@ -25,7 +25,7 @@ h2 {
 	font-weight: 400;
 	color: #101214;
 
-	padding: 1em 2em;
+	padding: 1em;
 }
 
 h3 {
@@ -235,30 +235,19 @@ a.text:hover {
 	border-color: #f5c11d;
 }
 
+#intro {
+	width: 80%;
+}
 
-@media (min-width: 768px) {
-
-	h2,
-	h3 {
-		font-size: 1.5em;
+@media (max-width: 768px) {
+	#intro {
+		width: 100%;
 	}
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1024px) {}
 
-	h2,
-	h3 {
-		font-size: 2em;
-	}
-}
-
-@media (min-width: 1366px) {
-
-	h2,
-	h3 {
-		font-size: 2.5em;
-	}
-}
+@media (min-width: 1366px) {}
 
 @media (min-width: 768px) {
 	/*.text h4, .text p{
@@ -280,7 +269,5 @@ a.text:hover {
 	  background-color:rgba(120, 187, 184, 0);
 	}*/
 
-	#intro {
-		width: 60%;
-	}
+
 }
